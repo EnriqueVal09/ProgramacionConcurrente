@@ -47,7 +47,7 @@ def girar_ruleta(elementos, inicio):
         elemento_actual = random.choice(elementos)
         sys.stdout.write(f'\r{elemento_actual}')
         sys.stdout.flush()
-        time.sleep(0.5)
+        time.sleep(0.2)
 
 def tirar(inicio):
     global tiros, girar, puntos
